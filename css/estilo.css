@@ -1,0 +1,20 @@
+.corpo{
+    width: 50%;
+}
+
+#titulo{
+    height: 50px;
+	background-color: goldenrod;
+    font-family: Lucida;
+}
+
+.conteudo{
+    font-family: Arial;
+}
+
+.rodape{
+    height: 20px;
+    background-color: goldenrod;
+    font-family: Arial;
+    font-size: 12px;
+}
