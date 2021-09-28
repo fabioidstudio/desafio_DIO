@@ -6,15 +6,22 @@
     height: 50px;
 	background-color: goldenrod;
     font-family: Lucida;
+    text-align: center;
 }
 
 .conteudo{
+    height: 150PX;
     font-family: Arial;
+    text-align: center;
 }
 
 .rodape{
-    height: 20px;
+    height: 25px;
     background-color: goldenrod;
+}
+.rodape p{
     font-family: Arial;
     font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
 }

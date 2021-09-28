@@ -5,6 +5,7 @@
 		<title>SÉCULO</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+		<script type="text/javascript" src="javascript/seculo.js"></script>
 	</head>
 	
 	<body class="corpo">
@@ -14,8 +15,9 @@
 		
 		<section class="conteudo">
 			<p>Digite um ano qualquer e veja a qual século ele pertence</p>
-			<input type="number" name="ano" value="Ano">
-			<input type="button">
+			<input type="number" id="ano" name="Ano">
+			<input type="button" value="SÉCULO" onclick="seculo()">
+			<p id="valor"></p>
 		</section>
 		
 		<footer class="rodape">
